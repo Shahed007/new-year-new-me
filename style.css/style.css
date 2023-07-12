@@ -1,0 +1,30 @@
+/* BASIC CUSTOMIZATION */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+input,
+button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+/* REUSABLE CLASS */
+.container {
+  width: 114rem;
+  margin: 0 auto;
+}
+
+/* MAIN-NAVIGATION */
